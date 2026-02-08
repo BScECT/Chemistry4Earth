@@ -4,7 +4,7 @@ authors:
   - name: Timo Heimovaara
 ---
 
-
+# Week 3.1: Chemistry and Earth Sciences
 ## Learning Goals
 
 By the end of the week, students should be able to:

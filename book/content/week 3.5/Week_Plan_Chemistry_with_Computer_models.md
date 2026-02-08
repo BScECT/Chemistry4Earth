@@ -1,4 +1,4 @@
-# Week 05: Chemistry with Computer Models
+# Week 3.5: Chemistry with Computer Models
 
 **Reference:** Appelo & Postma (2012) – *Geochemistry, Groundwater and Pollution*  
 <https://doi-org.tudelft.idm.oclc.org/10.1201/9781439833544>  

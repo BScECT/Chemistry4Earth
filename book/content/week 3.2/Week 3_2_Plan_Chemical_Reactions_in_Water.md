@@ -4,7 +4,7 @@ authors:
   - name: Timo Heimovaara
 ---
 
-# Week plan 3.2: Chemical Reactions in Water
+# Week 3.2: Chemical Reactions in Water
 
 
 **Reference:** Appelo & Postma (2012) – *Geochemistry, Groundwater and Pollution*  

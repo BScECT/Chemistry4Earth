@@ -1,4 +1,4 @@
-# Template Chapter
+# Week 3.3
 
 This is a template chapter. It contains random text and a formula to familiarise you with the structure.
 

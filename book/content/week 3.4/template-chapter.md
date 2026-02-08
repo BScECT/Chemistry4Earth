@@ -1,4 +1,4 @@
-# Week 4 Electrochemistry
+# Week 3.4: Electrochemistry
 NOT FINISHED
 This is a template chapter. It contains random text and a formula to familiarise you with the structure.
 
