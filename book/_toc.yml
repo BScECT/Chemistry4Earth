@@ -1,47 +1,32 @@
-# Configuration of _toc.yml file is explained in detail here: https://jupyterbook.org/en/stable/structure/toc.html and https://sphinx-external-toc.readthedocs.io/en/latest/user_guide/sphinx.html
-
 format: jb-book
 root: intro.md
 
 parts:
-  - caption: Part with some content # A title for the whole the subtree, e.g. shown above the subtree in ToCs, configuration part of sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
-    numbered: false                 # Default value (line can be removed), whether to number the chapters/sections in this part, configuration part of sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
-    style: numerical                # Default value (line can be removed), style of numbering for this part, configuration part of TeachBooks' version of sphinx-external-toc (https://github.com/TeachBooks/sphinx-external-toc?tab=readme-ov-file#toc-tree-options)
-    restart_numbering: false        # Default value (line can be removed), whether to restart numbering for this part, configuration part of TeachBooks' version of sphinx-external-toc (https://github.com/TeachBooks/sphinx-external-toc?tab=readme-ov-file#toc-tree-options)
+  - caption: Content
     chapters:
-    - file: some_content/overview.md
-      sections:
-      - file: some_content/text_and_code.ipynb
-  - caption: Exercises
+      - file: content/week 3.1/Week 3_1_Plan_Chemistry&Earth_Sciences.md
+        sections:
+          - file: content/week 3.1/Week 3_1_Tutorial_1_InstallPython&Orchestra.md
+          - file: content/week 3.1/Week 3_1_Tutorial_2_molecular_structure.md
+      - file: content/week 3.2/Week 3_2_Plan_Chemical_Reactions_in_Water.md
+        sections:
+          - file: content/week 3.2/Week 3_2_Tutorial_1_Chemical_Reactions_in_Water.ipynb
+          - file: content/week 3.2/Week 3_2_Tutorial_2_Fluorite_Gypsum.ipynb
+      - file: content/week 3.3/template-chapter.md
+      - file: content/week 3.4/template-chapter.md
+      - file: content/week 3.5/Week_Plan_Chemistry_with_Computer_models.md
+        sections:
+          - file: content/week 3.5/Tutorial-1-Orchestra-Ca-F-Gypsum/Fluorite-Gypsum-Water.ipynb
+          - file: content/week 3.5/Tutorial-2-Orchestra-Carbonate-system/Tutorial_2_Carbonate_Water_Calcite_fixed_volume.ipynb
+          - file: content/week 3.5/Assignment_pressure_volume/Assignment_CO2_in_SODA.ipynb
+      - file: content/week 3.6/template-chapter.md
+      - file: content/week 3.7/Week_Plan_Applications_Water_Examples.md
+        sections:
+          - file: content/week 3.7/Assignment_Lorah_and_Herman/Lorah&Herman_Travertine.ipynb
+  - caption: test-space (to be removed)
     chapters:
-    - file: exercises.md
-      sections:
-      - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/005a.md
-      - file: exercises/006.md
-      - file: exercises/summary
-    - file: syntax_exercises.md
-      sections:
-      - file: syntax_exercises/007.md
-      - file: syntax_exercises/008.md
-      - file: syntax_exercises/009.md
-      - file: syntax_exercises/010.md
-      - file: syntax_exercises/011.md
-      - file: syntax_exercises/012.md
-      - file: syntax_exercises/013.md
-    - file: extensions.md
-      sections:
-      - file: exercises/007.md
-      - file: extension_exercises/017.md
-      - file: extension_exercises/014.md
-      - file: extension_exercises/015.md
-      - file: extension_exercises/016.md
-  - caption: Miscellaneous
-    chapters:
-    - file: references.md
-    - file: changelog.md
-    - file: credits.md
+      - file: content/test_space/01-paper.md
+        sections:
+          - file: content/test_space/02-notebook.ipynb
+          - file: content/test_space/Linear_Transformations.md
+          - file: content/test_space/quickstart-myst-markdown.md

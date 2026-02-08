@@ -1,0 +1,35 @@
+execute:
+  execute_notebooks: "auto"
+
+jupyter:
+  notebooks:
+    execute: auto
+  
+  preprocessors:
+    - remove_tagged_cells
+
+tagged_cells:
+  remove_cell_tags:
+  - answer
+
+# Enable Theebe
+launch_buttons:
+  thebe: true
+  notebook_interface: "jupyterlab"
+
+thebe_config:
+  use_thebe: true
+  useBinder: false
+  useJupyterLite: false
+  codeMirrorConfig:
+    theme: "default"
+  mountActivateWidget: true
+  mountStatusWidget: true
+  serverSettings:
+    baseUrl: "http://localhost:8890"
+    token: "abcd1234"
+    appendToken: true
+  kernelOptions:
+    name: "python3"
+
+
