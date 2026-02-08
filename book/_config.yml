@@ -2,9 +2,7 @@
 
 # This config includes an opinionated list of configuration options of TeachBooks, Jupyterbook v1, Sphinx and other extensions part of TeachBooks-Favourites.
 
-author: Timo Heimovaara
-author: Lot van der Graaf
-author: Ajit Ahlawat
+author: Timo Heimovaara, Lot van der Graaf, Ajit Ahlawat
                                                      # Replace TeachBooks Teams with your own name in the line above, configuratin part of JupyterBook: https://jupyterbook.org/en/stable/customize/config.html
 execute:
   execute_notebooks: "off"                           # Replace this if you want don't have notebooks with output and you want to add notebook output during build, configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html)
